@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+    <div class="parent" id="parent">
+        <div class="child1"></div>
+        <div class="child2">Time
+            
+            <div class="container">
+
+                <div class="box">
+                    <div class="hours">
+                        <h1 id="hours">8</h1>
+                         
+                    </div>
+                    <h1>hours</h1>
+                </div>
+                <div class="bold">:</div>
+    
+    
+                <div class="box">
+                    <div class="minutes">
+                        <h1 id="minutes">8</h1>
+                    </div>
+                    <h1>min</h1>
+                </div>
+    
+                <div class="bold">:</div>
+                <div class="box">
+                    <div class="seconds">
+                        <h1 id="seconds">8</h1>
+                    </div>
+                    <h1>seconds</h1>
+                </div>
+                <div class="bold">:</div>
+    
+                <div class="box">
+                    <div class="amorpm">
+                        <h1 id="amorpm">8</h1>
+                    </div>
+                    <h1 class="etc">a</h1>
+                 </div>
+    
+               
+    
+        </div>
+    
+                <div class="back1">
+                 <div class="back2"></div>
+                </div> 
+            </div>   
+        </div>
+        <div class="child3">
+            <img class="img1"src="./image/wake_up_11zon.png">
+        <form >
+              <label id="x">Set wake up time</label>
+
+
+              <select class="img2"  id="img2"  onchange=settime()  >
+                <option value="0">Default</option>
+                  <option value="1">1am - 2am</option>
+                  <option value="2">2am - 3am</option>
+                  <option value="3">3am - 4am</option>
+                  <option value="4">4am - 5am</option>
+                  <option value="5">5am - 6am</option>
+                  <option value="6">6am - 7am</option>
+                  <option value="7">7am - 8am</option>
+                  <option value="8">8am - 9am</option>
+                  <option value="9">9am - 10am</option>
+                  <option value="10">10am - 11am</option>
+                  <option value="11">11am - 12pm</option>
+                  <option value="12">12pm - 1pm</option>
+                  <option value="13">1pm - 2pm</option>
+                  <option value="14">2pm - 3pm</option>
+                  <option value="15">3pm - 4pm</option>
+                  <option value="16">4pm - 5pm</option>
+                  <option value="17">5pm - 6pm</option>
+                  <option value="18">6pm - 7pm</option>
+                  <option value="19">7pm - 8pm</option>
+                  <option value="20">8pm - 9pm</option>
+                  <option value="21">9pm - 10pm</option>
+                  <option value="22">10pm - 11pm</option>
+                  <option value="23">11pm - 12am</option>
+                  <option value="24">0am - 1am</option>
+            </select>
+          </form>
+    <div class="vl"></div>
+    <img class="image3" src="./image/lunch_time_11zon.png">
+    <form >
+        <label id="y">Set lunch time</label>
+
+            <select class="image4"  id="image4" onchange=settime()  >
+                <option value="0">Default</option>
+                <option value="1">1am - 2am</option>
+                <option value="2">2am - 3am</option>
+                <option value="3">3am - 4am</option>
+                <option value="4">4am - 5am</option>
+                <option value="5">5am - 6am</option>
+                <option value="6">6am - 7am</option>
+                <option value="7">7am - 8am</option>
+                <option value="8">8am - 9am</option>
+                <option value="9">9am - 10am</option>
+                <option value="10">10am - 11am</option>
+                <option value="11">11am - 12pm</option>
+                <option value="12">12pm - 1pm</option>
+                <option value="13">1pm - 2pm</option>
+                <option value="14">2pm - 3pm</option>
+                <option value="15">3pm - 4pm</option>
+                <option value="16">4pm - 5pm</option>
+                <option value="17">5pm - 6pm</option>
+                <option value="18">6pm - 7pm</option>
+                <option value="19">7pm - 8pm</option>
+                <option value="20">8pm - 9pm</option>
+                <option value="21">9pm - 10pm</option>
+                <option value="22">10pm - 11pm</option>
+                <option value="23">11pm - 12am</option>
+                <option value="24">0am - 1am</option> 
+      </select>
+    </form>
+    <div class="v2"></div>
+    <br>
+    <img class="image5" src="./image/nap_time_11zon.png">
+    <form >
+        <label id="z">Set nap time</label>
+
+            <select class="image6"  id="image6"   >
+                <option value="0">Default</option>
+                <option value="1">1am - 2am</option>
+                <option value="2">2am - 3am</option>
+                <option value="3">3am - 4am</option>
+                <option value="4">4am - 5am</option>
+                <option value="5">5am - 6am</option>
+                <option value="6">6am - 7am</option>
+                <option value="7">7am - 8am</option>
+                <option value="8">8am - 9am</option>
+                <option value="9">9am - 10am</option>
+                <option value="10">10am - 11am</option>
+                <option value="11">11am - 12pm</option>
+                <option value="12">12pm - 1pm</option>
+                <option value="13">1pm - 2pm</option>
+                <option value="14">2pm - 3pm</option>
+                <option value="15">3pm - 4pm</option>
+                <option value="16">4pm - 5pm</option>
+                <option value="17">5pm - 6pm</option>
+                <option value="18">6pm - 7pm</option>
+                <option value="19">7pm - 8pm</option>
+                <option value="20">8pm - 9pm</option>
+                <option value="21">9pm - 10pm</option>
+                <option value="22">10pm - 11pm</option>
+                <option value="23">11pm - 12am</option>
+                <option value="24">0am - 1am</option>
+      </select>
+    </form>
+        </div>
+        <div class="child4" id="child4">
+            <div class="head" id="head"></div>
+        </div>
+        <button class="child6" id="child6" onclick=Makediv() >SET TIME !!!</button>
+        <script src="./index.js"></script>
+    </div>
+</body>
+</html>

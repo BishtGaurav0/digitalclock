@@ -15,11 +15,7 @@ digital-clock/ ├─ index.html ├─ style.css └─ script.js
 
 
 ## 🎥 Video Walkthrough of the Project  
-_A short video walkthrough (1–3 minutes) showing clock functionality and how to set alerts will be added soon._
-
-## 💻 Video Walkthrough of the Codebase  
-_A code explanation video (1–5 minutes) will be uploaded soon to walk through the core logic._
-
+![Image](https://github.com/user-attachments/assets/fcb24c03-5a18-4d70-8c7d-5df15e1a0525)
 ## ✨ Features
 - ⏲️ Real-time digital clock display (hours, minutes, seconds, AM/PM)
 - 🛌 Set custom **Wake Up Time**

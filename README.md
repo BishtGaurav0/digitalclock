@@ -7,7 +7,7 @@ This **Digital Clock** is a simple and interactive web application built using *
 🎨 Frontend
 
 ## 🌐 Deployed App  
-🔗 Live Link: [https://your-digital-clock.vercel.app](https://your-digital-clock.vercel.app)
+🔗 Live Link: [https://bishtgaurav0.github.io/digitalclock/](https://bishtgaurav0.github.io/digitalclock/)
 
 ## 📁 Directory Structure
 digital-clock/ ├─ index.html ├─ style.css └─ script.js
